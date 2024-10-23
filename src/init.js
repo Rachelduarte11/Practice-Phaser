@@ -12,11 +12,23 @@ const config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 300 },
+            // gravity: { y: 300 },
             debug: false
         }
     }
 }
+//Pressed Keys
+keyDownRight= 'keydown-RIGHT';
+keyDownLeft= 'keydown-LEFT';
+keyDownUp= 'keydown-UP';
+keyDownDown= 'keydown-DOWN';
+
+//Is not Pressed Keys
+keyUpRight= 'keyup-RIGHT';
+keyUpLeft= 'keyup-LEFT';
+keyUpUp= 'keyup-UP';
+keyUpDown= 'keyup-DOWN';
+
 
 const game = new Phaser.Game(config);
 
@@ -27,17 +39,34 @@ function preload() {
 }
 
 function create() {
-    this.add.text(10, 10, 'Hello World', { font: '16px Courier', fill: '#00ff00' });
-    this.bird = this.physics.add.image(100, 80, 'bird');
-    this.bird.setScale(2);
-    //fisicas
-    this.bird.setCollideWorldBounds(true);
-    this.bird.setBounce(0.5);
-    this.bird.setVelocity(100, 0);
+   this.bird = this.physics.add.image(100, 100, 'bird');
+//    this.input.keyboard.on(keyDownRight, () => {
+//          this.bird.setAccelerationX(100);
+//    });
+
+//    this.input.keyboard.on(keyUpRight, () => {
+//     this.bird.setAccelerationX(0);
+//     this.bird.setVelocityX(0);
+// });
+
+//    this.input.keyboard.on(keyLeft, () => {
+//     this.bird.x= this.bird.x -4;
+// });
+
+  this.cursorKeys = this.input.keyboard.createCursorKeys();
 
 }
 
-function update() {
-    //this.bird.angle++
+function update(time, delta) {
+    if(this.cursorKeys.right.isDown){
+        this.bird.x++;
+    }else if(this.cursorKeys.left.isDown){
+        this.bird.x--;
+    }else if(this.cursorKeys.up.isDown){
+        this.bird.y--;
+    }else {
+        this.bird.setAccelerationX(0);
+        this.bird.setAccelerationY(0);
+    }
 }
 
