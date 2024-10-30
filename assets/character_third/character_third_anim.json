@@ -1,0 +1,120 @@
+{
+    "anims": [
+        {
+            "key": "third_rest",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 3,
+            "frames": [
+                {
+                    "key": "character_third",
+                    "frame": "character-19"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-20"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-21"
+                }
+            ]
+        },
+        {
+            "key": "third_walk_right",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "character_third",
+                    "frame": "character-12"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-11"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-10"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-13"
+                }
+            ]
+        },
+        {
+            "key": "third_walk_left",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "character_third",
+                    "frame": "character-7"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-6"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-9"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-8"
+                }
+            ]
+        },
+        {
+            "key": "third_walk_backward",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "character_third",
+                    "frame": "character-17"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-18"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-15"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-16"
+                }
+            ]
+        },
+        {
+            "key": "third_walk_toward",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 8,
+            "frames": [
+                {
+                    "key": "character_third",
+                    "frame": "character-1"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-2"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-1"
+                },
+                {
+                    "key": "character_third",
+                    "frame": "character-4"
+                }
+            ]
+        }
+    ]
+}
