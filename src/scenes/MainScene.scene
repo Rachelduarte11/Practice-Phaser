@@ -1,0 +1,473 @@
+{
+    "id": "ea3762d3-5194-41bd-a336-b3836c40bdf2",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 64,
+        "snapHeight": 64,
+        "preloadPackFiles": [
+            "phaser-practice/assets/asset-pack.json"
+        ],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Main",
+        "borderY": -4850,
+        "borderWidth": 1200,
+        "borderHeight": 5460
+    },
+    "displayList": [
+        {
+            "type": "TilemapLayer",
+            "id": "e7caf98f-af97-4bb9-880c-e885139f3900",
+            "label": "pisos_1",
+            "x": -378,
+            "y": -5357,
+            "tilemapId": "7892b562-c0e4-4d60-9204-0ed91c66da34",
+            "layerName": "pisos",
+            "tilesets": [
+                "tileset-offices",
+                "tematic"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "67f12182-a67e-4e42-9316-d89a35a744ab",
+            "label": "paredes_1",
+            "x": -378,
+            "y": -5357,
+            "tilemapId": "7a8c0f76-18b0-4255-a1f9-f67463cf218f",
+            "layerName": "paredes",
+            "tilesets": [
+                "tileset-offices",
+                "tematic"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "6e6da15b-7f93-4403-a3ab-daac859d9735",
+            "label": "decoracion",
+            "x": -378,
+            "y": -5357,
+            "tilemapId": "d934e96f-756e-4a75-9633-d0a2e65e242d",
+            "layerName": "decoracion2",
+            "tilesets": [
+                "tileset-offices",
+                "tematic"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "9c48c2c4-497a-43e5-aef9-af733f1a27b1",
+            "label": "decoracion_1",
+            "x": -378,
+            "y": -5357,
+            "tilemapId": "7bf91b2d-cf34-4849-8127-36a74894f10e",
+            "layerName": "decoracion",
+            "tilesets": [
+                "tileset-offices",
+                "tematic"
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "f067ec72-b0ef-4686-ab3f-91da830915cb",
+            "label": "field_4",
+            "texture": {
+                "key": "level-3"
+            },
+            "x": 431,
+            "y": 530
+        },
+        {
+            "type": "Sprite",
+            "id": "8db291e5-3b7d-4133-8d09-95a2c9415d2b",
+            "label": "field_1",
+            "texture": {
+                "key": "level-3"
+            },
+            "x": 191,
+            "y": 529
+        },
+        {
+            "type": "Sprite",
+            "id": "d1d03c59-4dd7-47b1-ae2b-b06ef8518241",
+            "label": "field_2",
+            "texture": {
+                "key": "level-3"
+            },
+            "x": 273,
+            "y": 529
+        },
+        {
+            "type": "Sprite",
+            "id": "31a17847-48f9-409f-91e5-6e0550bbba08",
+            "label": "field_3",
+            "texture": {
+                "key": "level-3"
+            },
+            "x": 350,
+            "y": 529
+        },
+        {
+            "type": "Sprite",
+            "id": "e551ee59-b003-426b-bcf3-d95dfc029080",
+            "label": "field_5",
+            "texture": {
+                "key": "level-3"
+            },
+            "x": 510,
+            "y": 530
+        },
+        {
+            "type": "Sprite",
+            "id": "ac1e7138-8886-480e-a3b7-bb4a127b11c6",
+            "label": "level_6",
+            "texture": {
+                "key": "rest"
+            },
+            "x": 590,
+            "y": 530
+        },
+        {
+            "type": "Sprite",
+            "id": "67193f6a-f607-4cdb-8b88-4cbc4a1bd2fa",
+            "label": "field_7",
+            "texture": {
+                "key": "rest"
+            },
+            "x": 670,
+            "y": 530
+        },
+        {
+            "type": "Sprite",
+            "id": "9d59109a-aa56-4497-a953-a639b2b1085e",
+            "label": "level_5",
+            "texture": {
+                "key": "level-3"
+            },
+            "x": 669,
+            "y": 457
+        },
+        {
+            "type": "Sprite",
+            "id": "75502eb8-3ba3-4783-9c4a-3cbd7b2f7c98",
+            "label": "level_6",
+            "texture": {
+                "key": "level-2"
+            },
+            "x": 590,
+            "y": 458
+        },
+        {
+            "type": "Sprite",
+            "id": "e9b24b8b-d593-41ab-95de-fd00b4f280a7",
+            "label": "level_7",
+            "texture": {
+                "key": "level-2"
+            },
+            "x": 510,
+            "y": 454
+        },
+        {
+            "type": "Sprite",
+            "id": "cc38e10f-7857-4de1-9970-70be381ae4f2",
+            "label": "level_8",
+            "texture": {
+                "key": "level-2"
+            },
+            "x": 430,
+            "y": 455
+        },
+        {
+            "type": "Sprite",
+            "id": "3699faa3-e5a2-42e7-b31b-e12b7da2ecc9",
+            "label": "level_9",
+            "texture": {
+                "key": "level-2"
+            },
+            "x": 351,
+            "y": 456
+        },
+        {
+            "type": "Sprite",
+            "id": "a73e9185-c9d0-407a-96fd-ccfbf2dc2f6e",
+            "label": "rest_2",
+            "texture": {
+                "key": "rest"
+            },
+            "x": 270,
+            "y": 455
+        },
+        {
+            "type": "Sprite",
+            "id": "7e68ba5d-86c3-43ac-bc19-4686a058d9cb",
+            "label": "rest_3",
+            "texture": {
+                "key": "rest"
+            },
+            "x": 191,
+            "y": 453
+        },
+        {
+            "type": "Sprite",
+            "id": "9277148b-3660-48c1-8706-a1c818ec1c08",
+            "label": "level_10",
+            "texture": {
+                "key": "level-2"
+            },
+            "x": 192,
+            "y": 377
+        },
+        {
+            "type": "Sprite",
+            "id": "c866b77f-a1f5-4493-b4d3-a86a81e21ca1",
+            "label": "level_11",
+            "texture": {
+                "key": "level-2"
+            },
+            "x": 272,
+            "y": 380
+        },
+        {
+            "type": "Sprite",
+            "id": "8f17eebe-65e9-488a-b153-d23e17b7a72f",
+            "label": "level_12",
+            "texture": {
+                "key": "level-1"
+            },
+            "x": 351,
+            "y": 380
+        },
+        {
+            "type": "Sprite",
+            "id": "d8f60553-6267-426d-8b65-338ac79435bd",
+            "label": "level_13",
+            "texture": {
+                "key": "level-1"
+            },
+            "x": 430,
+            "y": 381
+        },
+        {
+            "type": "Sprite",
+            "id": "2cab03e5-e59e-4917-9d9e-2ece196fd12c",
+            "label": "level_14",
+            "texture": {
+                "key": "level-1"
+            },
+            "x": 510,
+            "y": 381
+        },
+        {
+            "type": "Sprite",
+            "id": "56f7b8bb-8998-4251-bb09-e888eb252528",
+            "label": "rest_4",
+            "texture": {
+                "key": "rest"
+            },
+            "x": 590,
+            "y": 382
+        },
+        {
+            "type": "Sprite",
+            "id": "3e98ef61-f54f-4247-a479-cfaed75b9cc2",
+            "label": "rest_5",
+            "texture": {
+                "key": "rest"
+            },
+            "x": 671,
+            "y": 382
+        },
+        {
+            "type": "Sprite",
+            "id": "2c66df5b-3155-4063-b324-60b7968319da",
+            "label": "level_15",
+            "texture": {
+                "key": "level-1"
+            },
+            "x": 669,
+            "y": 316
+        },
+        {
+            "type": "Sprite",
+            "id": "c00fd433-e02d-4227-bd40-844d6846bc8a",
+            "label": "level_16",
+            "texture": {
+                "key": "level-1"
+            },
+            "x": 591,
+            "y": 316
+        },
+        {
+            "type": "Sprite",
+            "id": "6a49bdca-d164-401a-b87b-2586848f0e53",
+            "label": "level_17",
+            "texture": {
+                "key": "level-1"
+            },
+            "x": 510,
+            "y": 317
+        },
+        {
+            "type": "Sprite",
+            "id": "21758779-1f86-4299-9041-4db7985215cc",
+            "label": "level_18",
+            "texture": {
+                "key": "level-2"
+            },
+            "x": 432,
+            "y": 317
+        },
+        {
+            "type": "Sprite",
+            "id": "e4732024-fc32-4dfd-95e7-9eb921c09815",
+            "label": "level_19",
+            "texture": {
+                "key": "level-1"
+            },
+            "x": 351,
+            "y": 316
+        },
+        {
+            "type": "Sprite",
+            "id": "39674c39-8b58-47a4-992c-ba31243b1b0b",
+            "label": "rest_6",
+            "texture": {
+                "key": "rest"
+            },
+            "x": 271,
+            "y": 318
+        },
+        {
+            "type": "Sprite",
+            "id": "56f0f94f-1210-4bc9-80a5-52a6265b43b3",
+            "label": "rest_7",
+            "texture": {
+                "key": "rest"
+            },
+            "x": 192,
+            "y": 317
+        },
+        {
+            "type": "Sprite",
+            "id": "70a052bf-2b6e-428b-9a7a-4ef6e74b7a91",
+            "label": "level_20",
+            "texture": {
+                "key": "level-2"
+            },
+            "x": 194,
+            "y": 243
+        },
+        {
+            "type": "Sprite",
+            "id": "0d38d1f0-7e93-4af4-abbc-39561e139d21",
+            "label": "level_21",
+            "texture": {
+                "key": "level-2"
+            },
+            "x": 269,
+            "y": 244
+        },
+        {
+            "type": "Sprite",
+            "id": "99a9d0b4-331f-426f-bf57-d5ccfea81549",
+            "label": "character_one",
+            "hitArea.shape": "CIRCLE",
+            "hitArea.x": 32,
+            "hitArea.y": 32,
+            "hitArea.radius": 32,
+            "texture": {
+                "key": "character_one",
+                "frame": 1
+            },
+            "x": 110,
+            "y": 514,
+            "animationPlayMethod": 1,
+            "animationKey": "walkRightCharacterOne"
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "bda53045-20d7-41ee-8a6f-0dd29c6c98e8",
+            "type": "Tilemap",
+            "label": "twelve",
+            "key": "twelve",
+            "tilesets": [
+                {
+                    "name": "tileset-offices"
+                },
+                {
+                    "name": "tematic"
+                }
+            ]
+        },
+        {
+            "id": "7892b562-c0e4-4d60-9204-0ed91c66da34",
+            "type": "Tilemap",
+            "label": "twelve_1",
+            "key": "twelve",
+            "tilesets": [
+                {
+                    "name": "tileset-offices",
+                    "imageKey": "tileset-offices"
+                },
+                {
+                    "name": "tematic",
+                    "imageKey": "tematic"
+                }
+            ]
+        },
+        {
+            "id": "7a8c0f76-18b0-4255-a1f9-f67463cf218f",
+            "type": "Tilemap",
+            "label": "twelve_2",
+            "key": "twelve",
+            "tilesets": [
+                {
+                    "name": "tileset-offices",
+                    "imageKey": "tileset-offices"
+                },
+                {
+                    "name": "tematic",
+                    "imageKey": "tematic"
+                }
+            ]
+        },
+        {
+            "id": "d934e96f-756e-4a75-9633-d0a2e65e242d",
+            "type": "Tilemap",
+            "label": "twelve_3",
+            "key": "twelve",
+            "tilesets": [
+                {
+                    "name": "tileset-offices",
+                    "imageKey": "tileset-offices"
+                },
+                {
+                    "name": "tematic",
+                    "imageKey": "tematic"
+                }
+            ]
+        },
+        {
+            "id": "7bf91b2d-cf34-4849-8127-36a74894f10e",
+            "type": "Tilemap",
+            "label": "twelve_4",
+            "key": "twelve",
+            "tilesets": [
+                {
+                    "name": "tileset-offices",
+                    "imageKey": "tileset-offices"
+                },
+                {
+                    "name": "tematic",
+                    "imageKey": "tematic"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

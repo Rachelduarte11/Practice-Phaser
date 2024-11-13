@@ -1,7 +1,7 @@
 {
     "anims": [
         {
-            "key": "one_rest",
+            "key": "rest",
             "type": "frames",
             "repeat": -1,
             "frameRate": 2,
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "key": "one_walk_backward",
+            "key": "walk_backward",
             "type": "frames",
             "repeat": -1,
             "frameRate": 8,
@@ -45,7 +45,7 @@
             ]
         },
         {
-            "key": "one_walk_toward",
+            "key": "walk_forward",
             "type": "frames",
             "repeat": -1,
             "frameRate": 6,
@@ -69,7 +69,7 @@
             ]
         },
         {
-            "key": "one_walk_left",
+            "key": "walk_left",
             "type": "frames",
             "repeat": -1,
             "frameRate": 10,
@@ -93,7 +93,7 @@
             ]
         },
         {
-            "key": "one_walk_right",
+            "key": "walk_right",
             "type": "frames",
             "repeat": -1,
             "frameRate": 10,
@@ -113,6 +113,18 @@
                 {
                     "key": "character_one",
                     "frame": "frame-12"
+                }
+            ]
+        },
+        {
+            "key": "idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 2,
+            "frames": [
+                {
+                    "key": "character_one",
+                    "frame": "frame-1"
                 }
             ]
         }

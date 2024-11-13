@@ -1,0 +1,97 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/character_one/character_one_anim.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/sprites/character_one.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "character_one"
+            },
+            {
+                "url": "assets/character_one/character_one_anim.json",
+                "type": "json",
+                "key": "character_one_anim"
+            },
+            {
+                "atlasURL": "assets/character_one/character_one_atlas.json",
+                "textureURL": "assets/character_one/character_one_atlas.png",
+                "type": "atlas",
+                "key": "character_one_atlas"
+            },
+            {
+                "url": "assets/field/level-1.png",
+                "type": "image",
+                "key": "level-1"
+            },
+            {
+                "url": "assets/field/level-2.png",
+                "type": "image",
+                "key": "level-2"
+            },
+            {
+                "url": "assets/field/level-3.png",
+                "type": "image",
+                "key": "level-3"
+            },
+            {
+                "url": "assets/field/level-4.png",
+                "type": "image",
+                "key": "level-4"
+            },
+            {
+                "url": "assets/field/level-5.png",
+                "type": "image",
+                "key": "level-5"
+            },
+            {
+                "url": "assets/field/level-6.png",
+                "type": "image",
+                "key": "level-6"
+            },
+            {
+                "url": "src/scenes/MainScene.js",
+                "type": "sceneFile",
+                "key": "MainScene"
+            },
+            {
+                "url": "assets/field/rest.png",
+                "type": "image",
+                "key": "rest"
+            },
+            {
+                "url": "assets/tilesets/tematic.png",
+                "type": "image",
+                "key": "tematic"
+            },
+            {
+                "url": "assets/tilesets/tileset-offices.png",
+                "type": "image",
+                "key": "tileset-offices"
+            },
+            {
+                "url": "assets/tilemaps/twelve.json",
+                "type": "tilemapTiledJSON",
+                "key": "twelve"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

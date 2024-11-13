@@ -1,7 +1,7 @@
 {
     "frames": [
         {
-            "filename": "frame-16",
+            "filename": "frame-1",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -14,7 +14,7 @@
             }
         },
         {
-            "filename": "frame-17",
+            "filename": "frame-2",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -27,7 +27,7 @@
             }
         },
         {
-            "filename": "frame-18",
+            "filename": "frame-3",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -40,7 +40,7 @@
             }
         },
         {
-            "filename": "frame-19",
+            "filename": "frame-4",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -53,7 +53,7 @@
             }
         },
         {
-            "filename": "frame-20",
+            "filename": "frame-5",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -66,7 +66,7 @@
             }
         },
         {
-            "filename": "frame-21",
+            "filename": "frame-6",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -79,7 +79,7 @@
             }
         },
         {
-            "filename": "frame-1",
+            "filename": "frame-7",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -92,7 +92,7 @@
             }
         },
         {
-            "filename": "frame-2",
+            "filename": "frame-8",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -105,7 +105,7 @@
             }
         },
         {
-            "filename": "frame-3",
+            "filename": "frame-10",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -118,7 +118,7 @@
             }
         },
         {
-            "filename": "frame-4",
+            "filename": "frame-11",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -131,7 +131,7 @@
             }
         },
         {
-            "filename": "frame-5",
+            "filename": "frame-12",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -144,7 +144,7 @@
             }
         },
         {
-            "filename": "frame-6",
+            "filename": "frame-13",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -157,7 +157,7 @@
             }
         },
         {
-            "filename": "frame-7",
+            "filename": "frame-14",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -170,7 +170,7 @@
             }
         },
         {
-            "filename": "frame-8",
+            "filename": "frame-15",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -183,7 +183,7 @@
             }
         },
         {
-            "filename": "frame-9",
+            "filename": "frame-16",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -196,7 +196,7 @@
             }
         },
         {
-            "filename": "frame-10",
+            "filename": "frame-17",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -209,7 +209,7 @@
             }
         },
         {
-            "filename": "frame-11",
+            "filename": "frame-20",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -222,7 +222,7 @@
             }
         },
         {
-            "filename": "frame-12",
+            "filename": "frame-18",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -235,7 +235,7 @@
             }
         },
         {
-            "filename": "frame-13",
+            "filename": "frame-19",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -248,7 +248,7 @@
             }
         },
         {
-            "filename": "frame-14",
+            "filename": "frame-21",
             "frame": {
                 "w": 64,
                 "h": 64,
@@ -261,7 +261,7 @@
             }
         },
         {
-            "filename": "frame-15",
+            "filename": "frame-9",
             "frame": {
                 "w": 64,
                 "h": 64,
